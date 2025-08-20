@@ -1,5 +1,6 @@
 import random, timeit
 
+# realiza un selection sort "bidireccional", codigo creado y optimizado por Chat GPT
 def chatgpt_selection_sort(array):
     left = 0
     right = len(array) - 1

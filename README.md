@@ -8,7 +8,6 @@ Array de 10 números: 0.0042 ms\
 Array de 100 números: 0.168 ms\
 Array de 1000 números: 15.0802 ms\
 
-
 Tiempo promedio de todos los arrays: 5.084 ms
 
 

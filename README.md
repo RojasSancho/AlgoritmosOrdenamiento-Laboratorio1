@@ -1,5 +1,9 @@
 # AlgoritmosOrdenamiento-Laboratorio1
 
+Estudiantes:
+* Hermes Rojas Sancho - C16882
+* Esteban Andrés Miranda Parajeles - C14801
+
 Tiempo de ejecución del ordenamiento (promedio de 5 ejecuciones por arreglo)
 
 | **Selection Sort (Estándar)**      | **Selection Sort Chat GPT**           | **Selection Sort  Deep Seek**  |

@@ -1,7 +1,7 @@
 # AlgoritmosOrdenamiento-Laboratorio1
 
 Analisis de Algorimos y Estructuras de Datos (Grupo 4)
-Estudiantes: \
+\Estudiantes: 
 * Hermes Rojas Sancho - C16882
 * Esteban Andrés Miranda Parajeles - C14801\
 

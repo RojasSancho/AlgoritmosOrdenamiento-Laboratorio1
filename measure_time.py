@@ -1,5 +1,6 @@
 from classic_selection_sort import classic_selection_sort 
 from chatgpt_selection_sort import chatgpt_selection_sort
+from deepseek_selection_sort import deepseek_selection_sort
 import random, timeit
 
 # crea un array de un tamano especifico con numeros aleatorios de 1 a 1000
@@ -26,3 +27,8 @@ measure_time(lambda array: classic_selection_sort(array, len(array)))
 # se imprime tiempo promedio del selection sort de chat gpt
 print("\nSelection Sort de ChatGPT")
 measure_time(lambda array: chatgpt_selection_sort(array))
+
+
+# se imprime tiempo promedio del selection sort de deepseek
+print("\nSelection Sort de DeepSeek")
+measure_time(lambda array: deepseek_selection_sort(array, len(array)))

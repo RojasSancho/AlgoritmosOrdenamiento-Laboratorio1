@@ -1,4 +1,6 @@
-def selection_sort(array):
+import random, timeit
+
+def chatgpt_selection_sort(array):
     left = 0
     right = len(array) - 1
 
@@ -26,8 +28,18 @@ def selection_sort(array):
         left += 1
         right -= 1
 
-test_array = [6, 5, 2, 8, 9, 10, 1, 3, 7, 4]
-print(test_array)
+# crea un array de un tamano especifico con numeros aleatorios de 1 a 1000
+def create_array(size):
+    array = []
+    for i in range(size):
+        random_number = random.randint(1, 1000)
+        array.append(random_number)
+    return array
 
-selection_sort(test_array)
-print(test_array)
+# tamanos solicitados de cada arreglo para pruebas
+sizes = [10, 100, 1000]
+
+for size in sizes:
+    array = create_array(size)
+    total_time_taken = timeit.timeit(lambda: chatgpt_selection_sort(array.copy()), number=5)
+    print(f"Promedio de 5 ejecuciones -> Tamaño Array {size}: {(total_time_taken / 5)*1000:.3f} ms.")

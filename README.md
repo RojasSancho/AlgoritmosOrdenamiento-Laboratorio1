@@ -31,9 +31,9 @@ Array de 1000 números:
 Tiempo promedio de todos los arrays:
 
 
-| **Selection Sort (Estándar)**              | **Selection Sort Chat GPT** | **Selection Sort  Deep Seek**  |
-| ----------         | --------------- | ------ | 
-| Array de 10 números: 0.0042 ms             | Array de 10 números: 0.0042 ms              | Array de 10 números:  |
-| Array de 100 números: 0.168 ms | Array de 100 números: 0.1494 m              | Array de 10 números: |
-| Array de 1000 números: 15.0802 ms  | Array de 1000 números: 12.3324 ms              | Array de 10 números: |
+| **Selection Sort (Estándar)**      | **Selection Sort Chat GPT**           | **Selection Sort  Deep Seek**  |
+| -----------------------------------| --------------------------------------| -------------------------------| 
+| Array de 10 números: 0.0042 ms     | Array de 10 números: 0.0042 ms        | Array de 10 números:           |
+| Array de 100 números: 0.168 ms     | Array de 100 números: 0.1494 m        | Array de 10 números:           |
+| Array de 1000 números: 15.0802 ms  | Array de 1000 números: 12.3324 ms     | Array de 10 números:           |
 

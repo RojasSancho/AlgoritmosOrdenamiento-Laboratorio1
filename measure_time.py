@@ -28,7 +28,6 @@ measure_time(lambda array: classic_selection_sort(array, len(array)))
 print("\nSelection Sort de ChatGPT")
 measure_time(lambda array: chatgpt_selection_sort(array))
 
-
 # se imprime tiempo promedio del selection sort de deepseek
 print("\nSelection Sort de DeepSeek")
 measure_time(lambda array: deepseek_selection_sort(array, len(array)))
